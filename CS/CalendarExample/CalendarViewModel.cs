@@ -96,7 +96,7 @@ namespace CalendarExample
 
         void UpdateHolidaysAndObservancesListVisible()
         {
-            IsHolidaysAndObservancesListVisible = ActiveViewType == DXCalendarViewType.Day;
+            IsHolidaysAndObservancesListVisible = ActiveViewType == DXCalendarViewType.Month;
         }
 
         void UpdateCurrentCalendarIfNeeded()
